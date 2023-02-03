@@ -1,0 +1,37 @@
+.container {
+	display: grid;
+	height: 700px;
+	grid-template-columns: repeat(3, 1fr);
+	/* grid-template-rows: repeat(3, 250px); */
+}
+
+.box {
+}
+
+.box1 {
+	background-color: aqua;
+}
+.box2 {
+	background-color: red;
+}
+.box3 {
+	background-color: green;
+}
+.box4 {
+	background-color: blue;
+}
+.box5 {
+	background-color: yellow;
+}
+.box6 {
+	background-color: violet;
+}
+.box7 {
+	background-color: mediumvioletred;
+}
+.box8 {
+	background-color: peru;
+}
+.box9 {
+	background-color: lawngreen;
+}
