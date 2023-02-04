@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Red Rose', cursive;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	/* background-image: url('/assets/images/pexels-maxyne-barcel-10402282\ 1.png'); */
+	background-size: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url('/assets/images/pexels-maxyne-barcel-10402282\ 1.png');
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	margin: 20px 40px 0 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	gap: 30px;
+	color: yellow;
+	font-family: 'Red Rose';
+}
+
+.btn-order {
+	position: relative;
+	padding: 8px 10px;
+	width: 100px;
+	background-color: rgb(227, 77, 77);
+	color: white;
+	border: 1px solid white;
+	font-weight: 600;
+	cursor: pointer;
+	border: none;
+}
+
+h1 {
+	margin-top: 100px;
+	margin-left: 400px;
+	color: yellow;
+	font-size: 50px;
+	font-weight: 900;
+	font-family: 'Dela Gothic One', cursive;
+}
+
+#serves {
+	position: relative;
+	left: 70px;
+	font-family: 'Dela Gothic One', cursive;
+}
+
+#food {
+	position: relative;
+	left: 30px;
+	font-family: 'Dela Gothic One', cursive;
+}
+
+#scrool {
+	position: absolute;
+	left: 1150px;
+	top: 500px;
+	height: 100px;
+	width: 100px;
+}
+
+.menu-btn {
+	position: absolute;
+	left: 570px;
+	padding: 8px 15px;
+	width: fit-content;
+	background-color: rgb(227, 77, 77);
+	color: white;
+	border: 1px solid white;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 20px;
+	border: none;
+}
