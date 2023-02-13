@@ -1,0 +1,109 @@
+@media (max-width: 428px) {
+	nav {
+		display: none;
+	}
+
+	header a img {
+		height: 40px;
+		width: 40px;
+	}
+
+	.intro img {
+		margin-left: 100px;
+		position: relative;
+		right: 50px;
+		top: 20px;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		right: 70px;
+	}
+
+	.container p {
+		margin-bottom: 20px;
+	}
+
+	.container img {
+		position: relative;
+		right: 100px;
+	}
+
+	.intro {
+		position: relative;
+		right: 70px;
+	}
+
+	.card {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	.projects {
+		width: 60%;
+		margin-left: 80px;
+	}
+
+	.projects h2 {
+		border-bottom: 2px solid blue;
+		width: 46%;
+		position: relative;
+		left: 10px;
+	}
+
+	.footer {
+		position: relative;
+		right: 30px;
+	}
+
+	.footer h2 {
+		position: relative;
+		right: 30px;
+	}
+
+	#me {
+		position: relative;
+		left: 77px;
+		bottom: 19px;
+		border-bottom: 2px solid blue;
+		width: 46%;
+	}
+
+	#contact {
+		border-bottom: 2px solid blue;
+		width: 50%;
+		position: relative;
+		left: 10px;
+	}
+
+	.social {
+		display: flex;
+		flex-direction: row;
+		/* position: relative;
+		left: 27px; */
+	}
+
+	.social img {
+		position: relative;
+		bottom: 20px;
+		right: 150px;
+		padding-left: 7px;
+	}
+
+	#dev {
+		color: rgb(168, 246, 14);
+	}
+
+	#pc-img {
+		margin-top: 30px;
+	}
+}
+
+@media (min-width: 428px) and (max-width: 1440px) {
+	header a img {
+		display: none;
+	}
+}
