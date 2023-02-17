@@ -1,0 +1,88 @@
+body {
+	background-image: url(/images/stethoscope.png);
+	background-size: 300px;
+	background-repeat: no-repeat;
+	background-position: top 200px left 350px;
+}
+
+nav ul:hover {
+	cursor: pointer;
+}
+
+main {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100vh;
+	margin-left: 50px;
+}
+
+.hero-img #doctor {
+	height: 500px;
+	width: 400px;
+	position: relative;
+	left: 100px;
+	bottom: 400px;
+}
+
+.hero-img #green {
+	height: 330px;
+	width: 400px;
+	position: relative;
+	left: 100px;
+	top: 450px;
+}
+.hero-img #yellow {
+	height: 310px;
+	width: 290px;
+	position: relative;
+	left: 210px;
+	top: 90px;
+	margin-top: 70px;
+}
+
+.hero {
+	width: 100%;
+}
+
+.hero h1 {
+	font-size: 70px;
+}
+
+.hero p {
+	color: #7c7c7c;
+	margin: 20px 0;
+}
+
+.appoinment-btn {
+	color: white;
+	border: none;
+	padding: 15px 40px;
+	border-radius: 40px;
+	background-color: #20bc7e;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+#top {
+	position: relative;
+	height: 20px;
+	width: 20px;
+}
+
+#bottom {
+	position: absolute;
+	top: 520px;
+	left: 600px;
+	height: 20px;
+	width: 20px;
+}
+
+#mouse {
+	position: absolute;
+	top: 550px;
+	left: 630px;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}

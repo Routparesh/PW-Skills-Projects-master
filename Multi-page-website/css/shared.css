@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+	/* outline: 0; */
+	box-sizing: border-box;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+	max-width: 1440px;
+	background-color: #f0f4f5;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+nav ul {
+	display: flex;
+	gap: 30px;
+	list-style: none;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+nav ul:hover {
+	cursor: pointer;
+}
